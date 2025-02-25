@@ -33,6 +33,8 @@ function Contact() {
               href="mailto:someone@example.com"
               variant="body1"
               sx={{
+                display: 'flex',
+                alignItems: 'center',
                 color: '#FFFFFF',
                 textDecoration: 'none',
                 transition: 'color 0.3s',
@@ -40,13 +42,15 @@ function Contact() {
               }}
             >
               <EmailIcon sx={{ mr: 1 }} />
-              someone@example.com
+              prabhudatta.prof@gmail.com
             </Link>
             <Link
-              href="https://github.com/yourusername"
+              href="https://github.com/Prabhudatta19/"
               target="_blank"
               variant="body1"
               sx={{
+                display: 'flex',
+                alignItems: 'center',
                 color: '#FFFFFF',
                 textDecoration: 'none',
                 transition: 'color 0.3s',
@@ -54,13 +58,15 @@ function Contact() {
               }}
             >
               <GitHubIcon sx={{ mr: 1 }} />
-              github.com/yourusername
+              github.com/Prabhudatta19
             </Link>
             <Link
-              href="https://linkedin.com/in/yourusername"
+              href="https://www.linkedin.com/in/prabhudatta-mohapatra/"
               target="_blank"
               variant="body1"
               sx={{
+                display: 'flex',
+                alignItems: 'center',
                 color: '#FFFFFF',
                 textDecoration: 'none',
                 transition: 'color 0.3s',
@@ -68,7 +74,7 @@ function Contact() {
               }}
             >
               <LinkedInIcon sx={{ mr: 1 }} />
-              linkedin.com/in/yourusername
+              linkedin.com/in/prabhudatta-mohapatra
             </Link>
           </Stack>
         </motion.div>

@@ -1,4 +1,3 @@
-import React from 'react';
 import { Box, Typography, Button, Container } from '@mui/material';
 import { motion } from 'framer-motion';
 import Lottie from 'lottie-react';
@@ -59,13 +58,13 @@ function Hero() {
             >
               Contact Me
             </Button>
-            <Button variant="outlined" color="#00000f" href="#">
+            <Button variant="outlined" color="#00000f" href="/Prabhudatta_Mohapatra_CV.pdf" download="Prabhudatta_Mohapatra_CV.pdf">
               View Resume
             </Button>
           </motion.div>
         </Box>
 
-        {/* Right: Optional Lottie Animation */}
+        {/* Right: Lottie Animation */}
         {
         <Box sx={{ flex: 1, display: 'flex', justifyContent: 'center' }}>
           <motion.div

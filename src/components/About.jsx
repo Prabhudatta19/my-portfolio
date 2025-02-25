@@ -24,7 +24,7 @@ function About() {
           </Typography>
           <Typography variant="body1" align="center" sx={{ mb: 4, color: '#ffff60' }}>
             I am a product-driven software engineer with experience in building 
-            robust front-end and back-end systems. I love exploring new technologies...
+            robust front-end and back-end systems.
           </Typography>
 
           <Card
@@ -35,15 +35,16 @@ function About() {
               borderRadius: 2,
             }}
           >
-            <CardContent>
+            <CardContent sx={{ textAlign: 'center' }}>
               <Typography variant="h5" sx={{ mb: 2 }}>
                 Tech Stack
               </Typography>
               <Typography variant="body1">
-                <strong>Frontend:</strong> React, Angular, Material UI, TypeScript<br />
-                <strong>Backend:</strong> Java, C#, Node.js<br />
-                <strong>Cloud &amp; DevOps:</strong> AWS, Docker, CI/CD<br />
-                <strong>Machine Learning:</strong> TensorFlow, some deep learning experiments
+                <strong>Programming:</strong> Javascript, Java, C++, TypeScript,Python, Go<br />
+                <strong>Frontend:</strong> HTML, CSS, React, Angular, Backbone, Bootstrap, Material UI<br />
+                <strong>Backend:</strong> Node, Express, Spring, SpringBoot<br />
+                <strong>Cloud &amp; DevOps:</strong> AWS, Azure(Certified), Docker, CI/CD(Jenkins & Gitlab)<br />
+                <strong>Others:</strong> Git, REST, SQL, NoSQL
               </Typography>
             </CardContent>
           </Card>
