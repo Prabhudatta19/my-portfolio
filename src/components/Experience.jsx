@@ -74,7 +74,7 @@ function Experience() {
                   Markets
                 </Typography>
                 <Typography variant="body1" sx={{ color: 'text.secondary' }}>
-                  - UI Developer for Market Exposure Limit Management Portal<br />
+                  - UI Development of Market Exposure Limit Management Portal<br />
                   - Backend services in Java & C# for Market Risk Management<br />
                 </Typography>
               </TimelineContent>
