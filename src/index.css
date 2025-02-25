@@ -29,7 +29,6 @@ body {
   scroll-behavior: smooth;
   background: #1A1A2E; /* fallback background if needed */
   min-height: 100vh;
-  min-width: 100vw;
 }
 
 h1 {
